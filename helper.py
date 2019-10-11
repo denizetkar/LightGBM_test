@@ -66,8 +66,8 @@ class LargeTabularDatesetIterator:
         x = next(self._pd_chunk_iter)
         if self._tabular_dataset.shuffle:
             x = x.sample(frac=1)
-        cont_x = x[self._tabular_dataset.cont_cols].astype(np.float32).squeeze(axis=0).values
-        cat_x = x[self._tabular_dataset.cat_cols].astype(np.int64).squeeze(axis=0).values
+        cont_x = x[self._tabular_dataset.cont_cols].astype(np.float32).values
+        cat_x = x[self._tabular_dataset.cat_cols].astype(np.int64).values
         # 'y' is a vector of scalar
         y = x[self._tabular_dataset.output_col].astype(np.int64).values
 
