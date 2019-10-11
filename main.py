@@ -91,7 +91,7 @@ def main():
     quantized_param_names = ['num_leaves', 'min_data_in_leaf', 'early_stopping_round',
                              'min_data_per_group', 'max_cat_threshold']
     lgbm_evaluator = LGBMEvaluator(X_train, X_test, y_train, y_test, input_cat_cols, prior_params,
-                                   quantized_param_names)
+                                   quantized_param_names, invert_loss=True)
     # For quantized uniform parameters: low <- (actual_low - q/2) AND high <- (actual_high + q/2)
     space = {
         "learning_rate": hp.loguniform('learning_rate', math.log(1e-4), math.log(4e-1)),
