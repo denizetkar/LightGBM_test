@@ -1,0 +1,18 @@
+1;Various sports activities proposal;1;0;0;0;0;0;0;0
+2;The results of your favorite sports team;1;0;0;0;0;0;0;0
+3;A concert of your favorite band;0;1;0;0;0;0;0;0
+4;A concert of a symphony orchestra;0;1;0;0;0;0;0;0
+5;A discount for your favorite clothes store ;0;0;1;0;0;0;0;0
+6;A discount for your favorite bookshop;0;0;0;1;0;0;0;0
+7;A discount for your favorite pub;0;0;0;0;1;0;0;0
+8;A discount for your favorite restaurant;0;0;0;0;1;0;0;0
+9;An exhibition about your favorite author;0;0;0;1;0;0;0;0
+10;The time of your next bus, tram, or subway (in real-time);0;0;0;0;0;1;0;0
+11;The geolocalized weather in the next hour;0;0;0;0;0;1;0;0
+12;Cultural scientific event for the general public;0;0;0;0;0;0;1;0
+13;The open house of a natural sciences museum;0;0;0;0;0;0;1;0
+14;Pollution rate and air quality in your city;0;0;0;0;0;1;0;0
+15;Political news for your city or state;0;0;0;0;0;0;0;1
+16;National or International news;0;0;0;0;0;0;0;1
+17;Local news;0;0;0;0;0;0;0;1
+18;Information Technology workshop for the general public;0;0;0;0;0;0;1;0
